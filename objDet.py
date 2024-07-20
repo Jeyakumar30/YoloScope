@@ -35,7 +35,7 @@ def user_selection(image_file, paste_btn):
             
 def default():
     try:
-        images = ["files\image1.png", "files\image2.png", "files\image3.png"]
+        images = ["image1.png", "image2.png", "image3.png"]
         clicked = image_select("Select an Image", images, key = "k1")
         left1, right1 = st.columns(2)
         left1.image(clicked,"Input")
